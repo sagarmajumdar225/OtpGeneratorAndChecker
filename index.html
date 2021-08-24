@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>OTP Generator
+    </title>
+</head>
+<body>
+    
+        <div class="container">
+            <div class="otpBox">
+                <h2>OTP Geneartor</h2>
+                <p> Your otp is : <span id="otpCode"></span></p> 
+                <button class="btn" onclick="generateOtp()">Generate</button>
+            </div>
+            <div class="otpCheckBox">
+                <input id="checkInput" type="text">
+                <button class="btn" onclick="check()">Check</button>
+
+            </div>
+            <div class="resultBox">
+                <p id="result"></p>
+            </div>
+        </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
